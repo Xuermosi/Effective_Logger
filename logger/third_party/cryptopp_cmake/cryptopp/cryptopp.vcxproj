@@ -1,0 +1,1248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C8D13BD9-61D8-3F68-900C-72278268F980}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>cryptopp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cryptopp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cryptopp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cryptopp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cryptopp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\trainingcamp\logger\.;D:\trainingcamp\logger\build\x64-Debug;D:\trainingcamp\logger\logger;D:\trainingcamp\logger\logger\.;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\trainingcamp\logger\.;D:\trainingcamp\logger\build\x64-Debug;D:\trainingcamp\logger\logger;D:\trainingcamp\logger\logger\.;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <IncludePaths>D:\trainingcamp\logger\.;D:\trainingcamp\logger\build\x64-Debug;D:\trainingcamp\logger\logger;D:\trainingcamp\logger\logger\.;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\trainingcamp\logger\.;D:\trainingcamp\logger\build\x64-Debug;D:\trainingcamp\logger\logger;D:\trainingcamp\logger\logger\.;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\trainingcamp\logger\.;D:\trainingcamp\logger\build\x64-Debug;D:\trainingcamp\logger\logger;D:\trainingcamp\logger\logger\.;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\trainingcamp\logger\.;D:\trainingcamp\logger\build\x64-Debug;D:\trainingcamp\logger\logger;D:\trainingcamp\logger\logger\.;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <IncludePaths>D:\trainingcamp\logger\.;D:\trainingcamp\logger\build\x64-Debug;D:\trainingcamp\logger\logger;D:\trainingcamp\logger\logger\.;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake;%(IncludePaths)</IncludePaths>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\trainingcamp\logger\.;D:\trainingcamp\logger\build\x64-Debug;D:\trainingcamp\logger\logger;D:\trainingcamp\logger\logger\.;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp;D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\trainingcamp\logger\logger\third_party\cryptopp_cmake\cryptopp\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/trainingcamp/logger/logger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/trainingcamp/logger -BD:/trainingcamp/logger/build/x64-Debug --check-stamp-file D:/trainingcamp/logger/build/x64-Debug/logger/third_party/cryptopp_cmake/cryptopp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeASM_MASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;D:\trainingcamp\logger\build\x64-Debug\CMakeFiles\3.27.7\CMakeASM_MASMCompiler.cmake;D:\trainingcamp\logger\build\x64-Debug\arch.c;D:\trainingcamp\logger\logger\third_party\cryptopp_cmake\cmake\ConfigFiles.cmake;D:\trainingcamp\logger\logger\third_party\cryptopp_cmake\cmake\ResetInitialCompilerOptions.cmake;D:\trainingcamp\logger\logger\third_party\cryptopp_cmake\cmake\TargetArch.cmake;D:\trainingcamp\logger\logger\third_party\cryptopp_cmake\cryptopp\config.pc.in;D:\trainingcamp\logger\logger\third_party\cryptopp_cmake\cryptopp\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/trainingcamp/logger/logger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/trainingcamp/logger -BD:/trainingcamp/logger/build/x64-Debug --check-stamp-file D:/trainingcamp/logger/build/x64-Debug/logger/third_party/cryptopp_cmake/cryptopp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeASM_MASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;D:\trainingcamp\logger\build\x64-Debug\CMakeFiles\3.27.7\CMakeASM_MASMCompiler.cmake;D:\trainingcamp\logger\build\x64-Debug\arch.c;D:\trainingcamp\logger\logger\third_party\cryptopp_cmake\cmake\ConfigFiles.cmake;D:\trainingcamp\logger\logger\third_party\cryptopp_cmake\cmake\ResetInitialCompilerOptions.cmake;D:\trainingcamp\logger\logger\third_party\cryptopp_cmake\cmake\TargetArch.cmake;D:\trainingcamp\logger\logger\third_party\cryptopp_cmake\cryptopp\config.pc.in;D:\trainingcamp\logger\logger\third_party\cryptopp_cmake\cryptopp\sources.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rdrand.asm">
+      <ObjectFileName>$(IntDir)/rdrand.asm.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)rdrand.asm.obj</ObjectFileName>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);_M_X64</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)rdrand.asm.obj</ObjectFileName>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);_M_X64</PreprocessorDefinitions>
+    </MASM>
+    <MASM Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rdseed.asm">
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);_M_X64</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);_M_X64</PreprocessorDefinitions>
+    </MASM>
+    <MASM Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\x64dll.asm">
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);_M_X64</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);_M_X64</PreprocessorDefinitions>
+    </MASM>
+    <MASM Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\x64masm.asm">
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions);_M_X64</PreprocessorDefinitions>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions);_M_X64</PreprocessorDefinitions>
+    </MASM>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cryptlib.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cpu.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\integer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\3way.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\adler32.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\algebra.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\algparam.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\allocate.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\arc4.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\aria.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ariatab.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\asn.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\authenc.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\base32.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\base64.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\basecode.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\bfinit.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\blake2.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\blake2b_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\blake2s_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\blowfish.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\blumshub.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\camellia.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cast.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\casts.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cbcmac.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ccm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\chacha.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\chacha_avx.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\chacha_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\chachapoly.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cham.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cham_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\channels.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cmac.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\crc.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\crc_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\darn.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\default.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\des.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\dessp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\dh.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\dh2.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\dll.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\donna_32.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\donna_64.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\donna_sse.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\dsa.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\eax.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ec2n.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\eccrypto.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ecp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\elgamal.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\emsa2.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\eprecomp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\esign.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\files.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\filters.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\fips140.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\fipstest.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gcm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gcm_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gf256.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gf2_32.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gf2n.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gf2n_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gfpcrypt.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gost.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gzip.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\hc128.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\hc256.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\hex.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\hight.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\hmac.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\hrtimer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ida.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\idea.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\iterhash.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\kalyna.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\kalynatab.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\keccak.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\keccak_core.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\keccak_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lea.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lea_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lsh256.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lsh256_avx.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lsh256_sse.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lsh512.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lsh512_avx.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lsh512_sse.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\luc.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\mars.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\marss.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\md2.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\md4.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\md5.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\misc.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\modes.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\mqueue.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\mqv.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\nbtheory.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\oaep.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\osrng.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\padlkrng.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\panama.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\pkcspad.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\poly1305.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\polynomi.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ppc_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\primetab.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\pssr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\pubkey.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\queue.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rabbit.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rabin.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\randpool.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rc2.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rc5.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rc6.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rdrand.cpp">
+      <ObjectFileName>$(IntDir)/rdrand.cpp.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rdtables.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rijndael.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rijndael_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ripemd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rng.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rsa.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rw.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\safer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\salsa.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\scrypt.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\seal.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\seed.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\serpent.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sha.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sha3.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sha_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\shacal2.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\shacal2_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\shake.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\shark.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sharkbox.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\simeck.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\simon.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\simon128_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\skipjack.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sm3.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sm4.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sm4_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sosemanuk.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\speck.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\speck128_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\square.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\squaretb.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sse_simd.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\strciphr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\tea.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\tftables.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\threefish.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\tiger.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\tigertab.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ttmac.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\tweetnacl.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\twofish.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\vmac.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\wake.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\whrlpool.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\xed25519.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\xtr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\xtrcrypt.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\xts.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\zdeflate.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\zinflate.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\zlib.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">winapifamily.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\trainingcamp\logger\build\x64-Debug\ZERO_CHECK.vcxproj">
+      <Project>{498FA7F9-822F-3A8F-8A77-076937AF4B5A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

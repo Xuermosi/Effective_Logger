@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cryptlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\integer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\3way.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\adler32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\algebra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\algparam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\allocate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\arc4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\aria.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ariatab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\asn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\authenc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\base32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\basecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\bfinit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\blake2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\blake2b_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\blake2s_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\blowfish.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\blumshub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\camellia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\casts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cbcmac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ccm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\chacha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\chacha_avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\chacha_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\chachapoly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cham.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cham_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\channels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\cmac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\crc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\crc_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\darn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\default.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\des.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\dessp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\dh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\dh2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\dll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\donna_32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\donna_64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\donna_sse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\dsa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\eax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ec2n.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\eccrypto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ecp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\elgamal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\emsa2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\eprecomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\esign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\filters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\fips140.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\fipstest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gcm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gcm_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gf256.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gf2_32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gf2n.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gf2n_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gfpcrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\gzip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\hc128.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\hc256.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\hex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\hight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\hmac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\hrtimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ida.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\idea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\iterhash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\kalyna.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\kalynatab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\keccak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\keccak_core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\keccak_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lea_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lsh256.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lsh256_avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lsh256_sse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lsh512.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lsh512_avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\lsh512_sse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\luc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\mars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\marss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\md2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\md4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\modes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\mqueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\mqv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\nbtheory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\oaep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\osrng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\padlkrng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\panama.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\pkcspad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\poly1305.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\polynomi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ppc_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\primetab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\pssr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\pubkey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rabbit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rabin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\randpool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rc2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rc5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rc6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rdrand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rdtables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rijndael.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rijndael_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ripemd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rsa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\safer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\salsa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\scrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\seal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\seed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\serpent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sha3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sha_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\shacal2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\shacal2_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\shake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\shark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sharkbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\simeck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\simon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\simon128_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\skipjack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sm3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sm4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sm4_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sosemanuk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\speck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\speck128_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\square.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\squaretb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\sse_simd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\strciphr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\tea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\tftables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\threefish.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\tiger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\tigertab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\ttmac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\tweetnacl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\twofish.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\vmac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\wake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\whrlpool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\xed25519.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\xtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\xtrcrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\xts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\zdeflate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\zinflate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\zlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\trainingcamp\logger\logger\third_party\cryptopp_cmake\cryptopp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rdrand.asm" />
+    <MASM Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\rdseed.asm" />
+    <MASM Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\x64dll.asm" />
+    <MASM Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\x64masm.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{57E9A9F2-F48E-344C-AA5B-85971C06E43D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

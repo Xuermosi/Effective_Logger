@@ -1,0 +1,93 @@
+cmake_minimum_required(VERSION 3.16)
+project(protobuf)
+
+set(INCDIRS . include)
+include_directories(${INCDIRS})
+set(libprotobuf_lite_files
+    google/protobuf/any_lite.cc
+    google/protobuf/arena.cc
+    google/protobuf/arenastring.cc
+    google/protobuf/arenaz_sampler.cc
+    google/protobuf/extension_set.cc
+    google/protobuf/generated_enum_util.cc
+    google/protobuf/generated_message_tctable_lite.cc
+    google/protobuf/generated_message_util.cc
+    google/protobuf/implicit_weak_message.cc
+    google/protobuf/inlined_string_field.cc
+    google/protobuf/io/coded_stream.cc
+    google/protobuf/io/io_win32.cc
+    google/protobuf/io/strtod.cc
+    google/protobuf/io/zero_copy_stream.cc
+    google/protobuf/io/zero_copy_stream_impl.cc
+    google/protobuf/io/zero_copy_stream_impl_lite.cc
+    google/protobuf/map.cc
+    google/protobuf/message_lite.cc
+    google/protobuf/parse_context.cc
+    google/protobuf/repeated_field.cc
+    google/protobuf/repeated_ptr_field.cc
+    google/protobuf/stubs/bytestream.cc
+    google/protobuf/stubs/common.cc
+    google/protobuf/stubs/int128.cc
+    google/protobuf/stubs/status.cc
+    google/protobuf/stubs/statusor.cc
+    google/protobuf/stubs/stringpiece.cc
+    google/protobuf/stubs/stringprintf.cc
+    google/protobuf/stubs/structurally_valid.cc
+    google/protobuf/stubs/strutil.cc
+    google/protobuf/stubs/time.cc
+    google/protobuf/wire_format_lite.cc)
+
+set(libprotobuf_lite_includes
+    google/protobuf/any.h
+    google/protobuf/arena.h
+    google/protobuf/arena_impl.h
+    google/protobuf/arenastring.h
+    google/protobuf/arenaz_sampler.h
+    google/protobuf/endian.h
+    google/protobuf/explicitly_constructed.h
+    google/protobuf/extension_set.h
+    google/protobuf/extension_set_inl.h
+    google/protobuf/generated_enum_util.h
+    google/protobuf/generated_message_tctable_decl.h
+    google/protobuf/generated_message_tctable_impl.h
+    google/protobuf/generated_message_util.h
+    google/protobuf/has_bits.h
+    google/protobuf/implicit_weak_message.h
+    google/protobuf/inlined_string_field.h
+    google/protobuf/io/coded_stream.h
+    google/protobuf/io/io_win32.h
+    google/protobuf/io/strtod.h
+    google/protobuf/io/zero_copy_stream.h
+    google/protobuf/io/zero_copy_stream_impl.h
+    google/protobuf/io/zero_copy_stream_impl_lite.h
+    google/protobuf/map.h
+    google/protobuf/map_entry_lite.h
+    google/protobuf/map_field_lite.h
+    google/protobuf/map_type_handler.h
+    google/protobuf/message_lite.h
+    google/protobuf/metadata_lite.h
+    google/protobuf/parse_context.h
+    google/protobuf/port.h
+    google/protobuf/repeated_field.h
+    google/protobuf/repeated_ptr_field.h
+    google/protobuf/stubs/bytestream.h
+    google/protobuf/stubs/callback.h
+    google/protobuf/stubs/casts.h
+    google/protobuf/stubs/common.h
+    google/protobuf/stubs/hash.h
+    google/protobuf/stubs/logging.h
+    google/protobuf/stubs/macros.h
+    google/protobuf/stubs/map_util.h
+    google/protobuf/stubs/mutex.h
+    google/protobuf/stubs/once.h
+    google/protobuf/stubs/platform_macros.h
+    google/protobuf/stubs/port.h
+    google/protobuf/stubs/status.h
+    google/protobuf/stubs/stl_util.h
+    google/protobuf/stubs/stringpiece.h
+    google/protobuf/stubs/strutil.h
+    google/protobuf/stubs/template_util.h
+    google/protobuf/wire_format_lite.h)
+
+add_library(protobuf STATIC ${libprotobuf_lite_files}
+    ${libprotobuf_lite_includes})

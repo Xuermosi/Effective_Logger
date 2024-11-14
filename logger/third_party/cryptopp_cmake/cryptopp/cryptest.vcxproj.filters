@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\bench1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\bench2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\bench3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\datatest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\dlltest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\fipsalgt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\validat0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\validat1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\validat2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\validat3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\validat4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\validat5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\validat6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\validat7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\validat8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\validat9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\validat10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\regtest1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\regtest2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\regtest3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\trainingcamp\logger\build\x64-Debug\logger\third_party\cryptopp_cmake\cryptopp\regtest4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\trainingcamp\logger\logger\third_party\cryptopp_cmake\cryptopp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{57E9A9F2-F48E-344C-AA5B-85971C06E43D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
