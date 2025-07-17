@@ -73,7 +73,7 @@ std::string ZstdCompress::Decompress(const void* data, size_t size) {
     return "";
   }
   if (IsZSTDCompressed(data, size)) {
-    ResetStream();
+    ResetUncompressStream_();
   }
   std::string output;
   output.reserve(10 * 1024);
