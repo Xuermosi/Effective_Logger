@@ -38,7 +38,7 @@ EffectiveSink::EffectiveSink(Conf conf) : conf_(std::move(conf)) {
   }
 
   if (!slave_cache_->Empty()) {
-    is_slave_free_.store(true);
+    is_slave_free_.store(false);
     PrepareToFile_();
     WAIT_TASK_IDLE(task_runner_);
   }
