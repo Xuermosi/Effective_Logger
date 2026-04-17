@@ -3,6 +3,11 @@
 #include "utils/sys_util.h"
 
 #include <unistd.h>
+#ifdef __APPLE__
+#include <pthread.h>
+#else
+#include <sys/syscall.h>
+#endif
 
 namespace logger {
 
@@ -15,7 +20,13 @@ size_t GetProcessId() {
 }
 
 size_t GetThreadId() {
-  return static_cast<size_t>(::gettid());
+#ifdef __APPLE__
+  uint64_t tid = 0;
+  pthread_threadid_np(nullptr, &tid);
+  return static_cast<size_t>(tid);
+#else
+  return static_cast<size_t>(::syscall(SYS_gettid));
+#endif
 }
 
 void LocalTime(std::tm* tm, std::time_t* now) {

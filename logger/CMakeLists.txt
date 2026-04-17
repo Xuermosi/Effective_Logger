@@ -7,7 +7,7 @@ add_subdirectory(third_party/protobuf)
 add_subdirectory(third_party/zstd/build/cmake zstd)
 add_subdirectory(third_party/zlib)
 
-if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
+if(CMAKE_SYSTEM_NAME STREQUAL "Linux" OR CMAKE_SYSTEM_NAME STREQUAL "Darwin")
     set(MMAP_SRCS mmap/mmap_aux.cc mmap/mmap_linux.cc)
     set(UTIL_SRCS utils/sys_util_linux.cc utils/sys_util.cc utils/file_util.cc)
 elseif(CMAKE_SYSTEM_NAME STREQUAL "Windows")

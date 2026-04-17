@@ -12,3 +12,6 @@ target_link_libraries(crypt_example logger)
 
 add_executable(zstd_example zstd_example.cc)
 target_link_libraries(zstd_example logger)
+
+add_executable(bench bench.cc)
+target_link_libraries(bench logger)
