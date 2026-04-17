@@ -58,11 +58,16 @@ void EffectiveSink::Log(const LogMsg& msg) {
   static thread_local MemoryBuf buf;
   formatter_->Format(msg, &buf);
 
-  if (master_cache_->Empty()) {
-    compress_->ResetStream();
-  }
   {
     std::lock_guard<std::mutex> lock(mutex_);
+    // NOTE: ResetStream must be inside the mutex. ZSTD_CCtx is shared mutable
+    // state; if thread A is mid-Compress while thread B calls ResetStream
+    // (observing an Empty master_cache_), A's stream gets wiped → returns 0 →
+    // "compress failed". Previously this was outside the lock and caused
+    // sporadic failures + QPS degradation under concurrency.
+    if (master_cache_->Empty()) {
+      compress_->ResetStream();
+    }
     compressed_buf_.reserve(compress_->CompressedBound(buf.size()));
     size_t compressed_size =
         compress_->Compress(buf.data(), buf.size(), compressed_buf_.data(), compressed_buf_.capacity());
